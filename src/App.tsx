@@ -1,0 +1,7 @@
+import { Section3 } from "./components/Section3";
+
+function App(){
+    return <Section3/>
+}
+
+export default App
