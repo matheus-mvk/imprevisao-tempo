@@ -1,10 +1,10 @@
 import { Section3 } from "./components/section3/Section3";
-import { PerfilContainer, Title1 } from "./styled";
+import { PerfilContainer} from "./styled";
 
 function App(){
     return (
         <PerfilContainer>
-            <Title1>Sobre a Equipe</Title1>
+            
             <Section3 
                 description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, 
                 fugit eius suscipit dicta laborum esse. Praesentium autem, explicabo placeat 

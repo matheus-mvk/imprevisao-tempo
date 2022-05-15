@@ -1,4 +1,4 @@
-import { EmailLink, GithubLink, LinkedinLink, SectionContainer, TextP, Title3 } from "./section3/styled";
+import { EmailLink, GithubLink, LinkedinLink, SectionContainer, TextP, Title1, Title3 } from "./section3/styled";
 
 interface Section3Props {
     name: string;
@@ -12,7 +12,7 @@ interface Section3Props {
 const Section3: React.FC<Section3Props> = ({ name, description, linkMail, linkLinkedin, linkGithub, imgSource}) => {
     return(
         <SectionContainer>
-            
+            <Title1>Sobre a Equipe</Title1>
             <Title3>
                 {name}
             </Title3>
