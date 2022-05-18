@@ -1,40 +1,26 @@
 import styled from "styled-components";
 
+const Source = styled.img`
+            position: relative;
+            top: 50px;
+            border-radius: 100%;
+`;
+
 const SectionContainer = styled.section`
             background: #F2F2F2;
-            border: 2px solid #0B7373;
-            border-radius: 16px;
-            position: absolute;
+            
             width: 1412px;
-            height: 500px;
-            left: 254px;
-            top: 1176px;
-`;
-const Title1 = styled.h1`
-            position: absolute;
-            width: 235px;
-            height: 56px;
-            left: 588px;
-            top: 32px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 56px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #222222;
+            height: 230px;
+            
 `;
 
 const Title3 = styled.h3`
-            position: absolute;
-            width: 78px;
+
+            position: relative;
+            width: 230px;
             height: 28px;
-            left: 258px;
-            top: 161px;
+            left: 230px;
+            top: -30px;
 
             font-family: 'Roboto';
             font-style: normal;
@@ -47,59 +33,65 @@ const Title3 = styled.h3`
 `;
 
 const TextP = styled.p`
-            position: absolute;
+            
+            position: relative;
             width: 916px;
-            height: 129px;
-            left: 258px;
-            top: 200px;
+            height: 100px;
+            left: 230px;
+            top: -30px;
 
-            font-family: 'Roboto';
+            
             font-style: normal;
             font-weight: 400;
             font-size:18px;
             line-height: 21px;
-            display: flex;
             align-items: center;
 
             color:#000000;
 `;
 
 const EmailLink = styled.a`
-            position: absolute;
-            width: 166.5px;
-            height: 48px;
-            left: 258px;
-            top: 396px;
+            position: relative ;
+            padding: 4px 4px 4px 40px;
+            margin: 5px;
+            
+            left: 230px;
+            top: -30px;
 
+            color: white;
             background: #CD3C30;
             border: 1.5px solid #AD1F1C;
-            border-radius: 12px;   
+            border-radius: 10px;   
             text-decoration: none;
 `;
 
 const LinkedinLink = styled.a`
-            position: absolute;
-            width: 166.5px;
-            height: 48px;
-            left: 456.5px;
-            top: 396px;
+            position: relative ;
+            padding: 4px 4px 4px 30px;
+            margin: 5px;
+            
+            left: 230px;
+            top: -30px;
 
+            color: white;
             background: #0A66C2;
             border: 1.5px solid #AD1F1C;
-            border-radius: 12px;
+            border-radius: 10px;
             text-decoration: none;
 `
 const GithubLink = styled.a`
-            position: absolute;
-            width: 166.5px;
-            height: 48px;
-            left: 655px;
-            top: 396px;
+            position: relative ;
+            padding: 4px 4px 4px 30px;
+            margin: 5px;
+            
+            left: 230px;
+            top: -30px;
 
+            color: white;
             background: #353C46;
             border: 1.5px solid #AD1F1C;
-            border-radius: 12px;
+            border-radius: 10px;
             text-decoration: none;
 `;
 
-export {SectionContainer, Title3, TextP, EmailLink, LinkedinLink, GithubLink, Title1};
+export {SectionContainer, Title3, TextP, EmailLink, LinkedinLink, GithubLink, Source};
