@@ -1,7 +1,39 @@
-import styled from "styled-components";
+import styled from "styled-components";     
 
+const Section1Conteiner = styled.section`
+            background: #F2F2F2;
+            border: 2px solid #0B7373;
+            border-radius: 16px;
 
-const PerfilContainer = styled.div`
+            position: relative;
+            left: 254px;
+
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 1412px;
+            height: 500px;
+`;
+const Section2Conteiner = styled.section`
+            background: #F2F2F2;
+            border: 2px solid #0B7373;
+            border-radius: 16px;
+
+            position: relative;
+            left: 254px;
+
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 1412px;
+            height: 800px;
+`;
+
+const Section3Container = styled.section`
             background: #F2F2F2;
             border: 2px solid #0B7373;
             border-radius: 16px;
@@ -15,7 +47,7 @@ const PerfilContainer = styled.div`
             justify-content: center;
             width: 1412px;
             height: 800px;
-`;      
+`; 
 
 const Title1 = styled.h1`
 
@@ -36,4 +68,4 @@ const Title1 = styled.h1`
             color: #222222;
 `;
 
-export { PerfilContainer, Title1};
+export { Section3Container, Title1, Section1Conteiner, Section2Conteiner};

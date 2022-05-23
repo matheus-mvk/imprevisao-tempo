@@ -2,12 +2,20 @@
 import { Section1 } from "./components/section1/Section1";
 import { Section2 } from "./components/section2/Section2";
 import { Section3 } from "./components/section3/Section3";
-import { PerfilContainer, Title1} from "./styled";
+import { Section3Container, Title1, Section1Conteiner, Section2Conteiner} from "./styled";
 
 function App(){
     return (
+       <>
+       <Section1Conteiner>
+       <Section1/>
+       </Section1Conteiner>
        
-        <PerfilContainer>
+       <Section2Conteiner>
+       <Section2/>
+       </Section2Conteiner>
+       
+        <Section3Container>
             <Title1>Sobre a Equipe</Title1>
             <Section3 
                 description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, 
@@ -41,7 +49,8 @@ function App(){
                 linkMail="mailto:"
                 name="Pedro pantera"
             />
-        </PerfilContainer>
+        </Section3Container>
+        </>
     )
 }
 
