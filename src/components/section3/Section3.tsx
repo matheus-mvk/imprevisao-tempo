@@ -1,4 +1,4 @@
-import { EmailLink, GithubLink, LinkedinLink, SectionContainer, TextP, Title3, Source } from "./styled";
+import { EmailLink, GithubLink, LinkedinLink, SectionContainer, TextP, Title3, Source } from "../section3/styled";
 
 interface Section3Props {
     name: string;
