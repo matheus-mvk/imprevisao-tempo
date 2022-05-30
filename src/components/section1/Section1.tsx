@@ -1,10 +1,9 @@
-import {Section1Container,Title1,Desc} from "./styled";
+import {Section1Container,Desc} from "./styled";
 
 const Section1: React.FunctionComponent = () => {
 	return(
 		<>
 			<Section1Container>
-            <Title1>Início</Title1>
             <Desc>
                 Esta página é um projeto protótipo para a aprendizagem de tecnologias Web Front End do mini-curso ASCII Notes.
             </Desc>

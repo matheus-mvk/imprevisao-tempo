@@ -8,11 +8,14 @@ function App(){
     return (
        <>
        <Section1Conteiner>
-       <Section1/>
+            <Title1>Início</Title1>
+
+            <Section1/>
        </Section1Conteiner>
        
        <Section2Conteiner>
-       <Section2/>
+        <Title1>Imprevisão</Title1>
+            <Section2/>
        </Section2Conteiner>
        
         <Section3Container>

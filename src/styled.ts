@@ -13,7 +13,7 @@ const Section1Conteiner = styled.section`
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 1412px;
+            width: 1300px;
             height: 500px;
 `;
 const Section2Conteiner = styled.section`
@@ -29,8 +29,8 @@ const Section2Conteiner = styled.section`
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 1412px;
-            height: 800px;
+            width: 1300px;
+            height: 500px;
 `;
 
 const Section3Container = styled.section`
@@ -45,16 +45,15 @@ const Section3Container = styled.section`
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 1412px;
+            width: 1300px;
             height: 800px;
 `; 
 
 const Title1 = styled.h1`
-
+            position: relative;
             width: 300px;
             height: 56px;
-            left: 588px;
-            top: 32px;
+            left: 75px;
 
             font-family: 'Roboto';
             font-style: normal;
@@ -68,4 +67,4 @@ const Title1 = styled.h1`
             color: #222222;
 `;
 
-export { Section3Container, Title1, Section1Conteiner, Section2Conteiner};
+export { Section1Conteiner,Section2Conteiner,Section3Container, Title1  }; 
