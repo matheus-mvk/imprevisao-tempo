@@ -8,7 +8,10 @@ const  FooterContainer = styled.footer`
 `;
 
 const Textp = styled.p`
-
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
 `; 
 
 export {FooterContainer, Textp};
