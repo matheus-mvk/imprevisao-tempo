@@ -1,23 +1,17 @@
-import { HeaderContainer, ImgSource, ProjetoLink, ImprevisaoLink, SobremimLink, TextP } from "./styled";
+import { HeaderContainer, ImgSource, ProjetoLink, ImprevisaoLink, SobremimLink} from "./styled";
 
 export function Header() {
     return(
         <HeaderContainer>
             <ImgSource src="{Logo}"alt="logo" ></ImgSource>
-                <ProjetoLink href="{#Projeto}" >
-                    <TextP>
+                <ProjetoLink href="{#Projeto}">
                     Projeto
-                    </TextP>
                 </ProjetoLink>
                     <ImprevisaoLink href="{#Imprevisao}" >
-                        <TextP>
                         Imprevisão
-                        </TextP>
                     </ImprevisaoLink>
                         <SobremimLink href="{#SobreMim}" >
-                            <TextP>
                             Sobre Mim
-                            </TextP>
                         </SobremimLink>
         </HeaderContainer>
     );
