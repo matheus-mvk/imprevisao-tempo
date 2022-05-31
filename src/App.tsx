@@ -1,12 +1,19 @@
 
+import { Footer } from "./components/footer/footer";
+import { Header } from "./components/header/header";
 import { Section1 } from "./components/section1/Section1";
 import { Section2 } from "./components/section2/Section2";
 import { Section3 } from "./components/section3/Section3";
+
 import { Section3Container, Title1, Section1Conteiner, Section2Conteiner} from "./styled";
 
 function App(){
     return (
        <>
+
+       <Header/>
+
+       
        <Section1Conteiner>
             <Title1>Início</Title1>
 
@@ -53,6 +60,8 @@ function App(){
                 name="Pedro pantera"
             />
         </Section3Container>
+
+        <Footer/>
         </>
     )
 }
