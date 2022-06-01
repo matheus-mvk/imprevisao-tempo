@@ -10,10 +10,7 @@ import { Section3Container, Title1, Section1Conteiner, Section2Conteiner} from "
 function App(){
     return (
        <>
-
        <Header/>
-
-       
        <Section1Conteiner>
             <Title1>Início</Title1>
 
@@ -32,7 +29,7 @@ function App(){
                 fugit eius suscipit dicta laborum esse. Praesentium autem, explicabo placeat 
                 expedita asperiores, corrupti deserunt nisi eaque magni animi consequatur quis 
                 laboriosam!"
-                imgSource="../src/assets/img2.png"
+                imgSource="/assets/img2.png"
                 linkGithub="https://github.com/matheus-mvk"
                 linkLinkedin="https://www.linkedin.com/in/matheush1/"
                 linkMail="mailto:matheusmhvs1@gmail.com"
@@ -62,6 +59,7 @@ function App(){
         </Section3Container>
 
         <Footer/>
+        
         </>
     )
 }

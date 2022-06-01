@@ -13,16 +13,19 @@ const ImgSource = styled.img`
     margin-top: 38px;
 `;
 const ProjetoLink = styled.a`
+font-size: 20px;
     margin-top: 38px;
     color: white;
     text-decoration:none;
 `;
 const ImprevisaoLink = styled.a`
+    font-size: 20px;
     margin-top: 38px;    
     color: white;
     text-decoration:none;
 `;
 const SobremimLink = styled.a`
+    font-size: 20px;
     margin-top: 38px;
     color: white;
     text-decoration:none;

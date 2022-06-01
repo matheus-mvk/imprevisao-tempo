@@ -7,7 +7,8 @@ const Section1Conteiner = styled.section`
 
             position: relative;
             left: 254px;
-
+            
+            margin-top: 32px;
             position: relative;
             display: flex;
             flex-direction: column;
@@ -24,6 +25,7 @@ const Section2Conteiner = styled.section`
             position: relative;
             left: 254px;
 
+            margin-top: 32px;
             position: relative;
             display: flex;
             flex-direction: column;
@@ -41,6 +43,8 @@ const Section3Container = styled.section`
             position: relative;
             left: 254px;
 
+            margin-top: 32px;
+            margin-bottom: 32px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -67,4 +71,4 @@ const Title1 = styled.h1`
             color: #222222;
 `;
 
-export { Section1Conteiner,Section2Conteiner,Section3Container, Title1  }; 
+export { Section1Conteiner,Section2Conteiner,Section3Container, Title1}; 
