@@ -15,14 +15,17 @@ const ImgSource = styled.img`
 const ProjetoLink = styled.a`
     margin-top: 38px;
     color: white;
+    text-decoration:none;
 `;
 const ImprevisaoLink = styled.a`
     margin-top: 38px;    
     color: white;
+    text-decoration:none;
 `;
 const SobremimLink = styled.a`
     margin-top: 38px;
     color: white;
+    text-decoration:none;
 `;
 
 export {HeaderContainer, ImgSource, ProjetoLink, ImprevisaoLink, SobremimLink};
