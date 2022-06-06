@@ -13,10 +13,11 @@ const Section2Container= styled.div`
 
 const SubDiv = styled.div`
     border-radius: 9px;
-    background-color: #394959;
+    background-color: white;
+    border: solid 2px black;
 
-    width: 600px;
-    height: 230px;
+    width: 550px;
+    height: 200px;
 
     margin: 32px 0;
     padding: 16px 24px;
